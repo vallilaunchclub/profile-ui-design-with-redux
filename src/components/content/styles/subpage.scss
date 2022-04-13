@@ -1,0 +1,26 @@
+.sub-page{
+    margin-bottom: 30px;
+    display: flex;
+    border-bottom: 2px solid rgb(231, 231, 231);
+    .timeline{
+        padding: 10px 20px 10px 0px;
+        color:  rgb(179, 179, 179);
+        &-icon{
+            margin-right: 5px;
+        }
+        &-title{
+            font-weight: 700;
+        }
+    }
+    .about{
+        padding: 10px;
+        color:  rgb(83, 83, 83);
+        &-icon{
+            margin-right: 10px;
+        }
+        &-title{
+            font-weight: 700;
+        }
+        border-bottom: 2px solid rgb(24, 120, 230);
+    }
+}
