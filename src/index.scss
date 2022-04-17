@@ -11,10 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ @media screen and (max-width: 500px){
+   .page-main{
+     width: 90%;
+   }
+   #root{
+     width: 267%;
+   }
+   .menus .user-icon {
+     padding: 0px 74px 0px 33px !important;
+ }
+  .header{
+    padding: 0px 2px 0px 35px;
+    width: 108%;
+  }
+
+ }
 
 .page-main{
   display: flex;
-   max-width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 50px 0;
   .sidebar{
